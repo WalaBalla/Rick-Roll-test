@@ -16,7 +16,7 @@ python rick.py
 
 
 
-
+echo fixa autogui
 
 
 
