@@ -11,12 +11,12 @@ Expand-Archive -Force nircmd-x64.zip C:\Users\%username%\Downloads\
 
 C:\Users\%username%\Downloads\nircmd.exe setsysvolume 65535
 
+pip install autogui
+
 curl https://raw.githubusercontent.com/WalaBalla/Rick-Roll-test/Rick-dependencies/rick.py -O rick.py
 python rick.py
 
 
-
-echo fixa autogui
 
 
 
