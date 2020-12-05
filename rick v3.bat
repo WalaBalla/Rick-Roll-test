@@ -3,7 +3,5 @@ powershell Expand-Archive -Force nircmd-x64.zip C:\Users\%username%\Downloads\
 
 C:\Users\%username%\Downloads\nircmd.exe setsysvolume 65535
 
-curl https://github.com/WalaBalla/Rick-Roll-test/blob/main/RickStart.bat -O
+curl https://raw.githubusercontent.com/WalaBalla/Rick-Roll-test/main/RickStart.bat -O RickStart.bat
 start RickStart.bat
-
-pause
