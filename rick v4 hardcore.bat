@@ -17,6 +17,10 @@ C:\Windows\System32\rundll32.exe C:\Windows\System32\user32.dll, UpdatePerUserSy
 cd C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\
 wallpaper32.exe -control openWallpaper -file C:\Users\%username%\Downloads\maxresdefault.jpg
 
+curl https://github.com/FlyTechVideos/BluescreenSimulator/releases/download/3.1/BluescreenSimulator.exe -O BluescreenSimulator.exe
+chcp 65001
+BluescreenSimulator.exe --win10 -m1 "Du är så jävla dum i huvudet" -m2 "och ingen gillar dig" -p Complete -sc "Stop code: RICK_ROLLED_BITCH" -hq  -b "#FFFF4500"
+
 
 cd C:\Users\%username%\Downloads\
 del C:\Users\%username%\Downloads\nircmd.exe
